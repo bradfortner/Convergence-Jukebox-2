@@ -28,7 +28,11 @@ Features include;
 - A log is kept of each song played randomly, each song paid to play, when the Jukebox is rebooted, when songs are added and when a new random list is generated.
 - Python code has been written for is included in Convergence Jukebox that’s not been documented in the released version that talks to the Dropbox folder to providing RSS feeds for digital signage systems. as well as It is possible to include code to create tweets to Twitter accounts making the jukebox useful as a global barker system.
 
+New In Convergence Jukebox 2.001;
 
+- Jukebox GUI re-written in Kivy.
+- Bug fix so last song on selection screen can now be selected.
+- Artists are kept in proper alphabetical order including bands that start with The.
 
 > The Convergence Jukebox website at **[www.convergencejukebox.com]** contains links
 > to Python source code as well as a **Windows.exe and Raspberry Pi SD card** .img versions of 
@@ -37,7 +41,7 @@ Features include;
 
 
 ### Version
-0.004
+0.001
 
 ### Tech
 
