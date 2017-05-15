@@ -1,15 +1,15 @@
 # Convergence-Jukebox-2
-Update to the original Convergence Jukebox using a Kivy based GUI in place of Tkinter. Convergence Jukebox is a fully functional retro jukebox application. It emulates "physical" jukeboxes and is written in Python. The software has been designed to be fully functional, playing mp3's both randomly and via a credit system. More at www.convergencejukebox.com
+Update to the original Convergence Jukebox using a Kivy based GUI in place of Tkinter. Convergence Jukebox 2 is a fully functional retro jukebox application. It emulates "physical" jukeboxes and is written in Python. The software has been designed to be fully functional, playing mp3's both randomly and via a credit system. More at www.convergencejukebox.com
 
-**Convergence Jukebox** is open source Python based software that has been written in Python 2.7 to emulate a “retro” style jukebox. The type of jukebox that was popular in bars, restaurants and recreation areas during the 1950’s and 60’s. Written from scratch by **[Brad Fortner]** of Convergence Communications, Convergence Jukebox plays properly formed ID3 tagged mp3 media. 
+**Convergence Jukebox 2** is open source Python based software that has been written in Python 2.7 to emulate a “retro” style jukebox. The type of jukebox that was popular in bars, restaurants and recreation areas during the 1950’s and 60’s. Written from scratch by **[Brad Fortner]** of Convergence Communications, Convergence Jukebox 2 plays properly formed ID3 tagged mp3 media. 
 
 The Jukebox can be controlled for “personal” use by your computer keyboard but is better operated with a USB keypad. Its output resolution is modifiable allowing it to connect to inexpensive computer, laptop or TV displays with its “retro look and feel”. It can even be connected to bill, coin or card acceptors for “pay to play” situations. More information can including an **[FAQ]** and instructions on how to **[format mp3's]** be found on the Convergence Jukebox blog at **[www.convergencejukebox.com]**.
 
 Features include;
-- Unlimited mp3 library size: Currently operating in our development centre is a version containing 10,000 mp3 files. This implementation runs on minimum hardware. In this case it’s an HP MINI 210 PC that contains an Atom N450 processor, 1024 MB of memory and a ‎160.0 GB hard drive. For Raspberry Pi were operating a version containing over 8000 mp3 files. In this case it’s an Raspberry Pi 1 model B revision 2 with 512 MB ram and a ‎64.0 GB SD card.
+- Unlimited mp3 library size: Currently operating in our development centre is a version containing 15,800 mp3 files. This implementation runs on minimum hardware. In this case it’s an HP MINI 210 PC that contains an Atom N450 processor, 1024 MB of memory and a ‎160.0 GB hard drive. Jukebox 2.0 has yet to be tested on a Raspberry Pi.
 - Automatic Song Detection: MP3 library database is built automatically when additional properly formed ID3 tagged files are added to the media folder and the program is restarted.
 - Multiple Display Resolutions: Developers can change display resolution, skins and customize all items on the screen (such as song name positions) using Pythons Tkinter code.
-- Customizable To Your Location: The Jukebox name or service at top of arch can be customized in the Python Tkinter code.
+- Customizable To Your Location: The Jukebox name or service at top of arch can be customized in the Python Kivy code.
 - Background Music System: Convergence Jukebox plays library loaded in Jukebox in a continuous manner randomly. Makes an excellent background music system.
     -  Different Styles Of Music: mp3’s can be tagged with genres in comment area of ID3 tag. Random play can be set to play specific genres by altering a simple text file.
     - Songs Can Be Skipped: mp3’s can be tagged “norandom” meaning they will never play randomly. This means mp3’s with potentially unsuitable content can only be played if selected.
@@ -35,8 +35,7 @@ New In Convergence Jukebox 2.001;
 - Artists are kept in proper alphabetical order including bands that start with The.
 
 > The Convergence Jukebox website at **[www.convergencejukebox.com]** contains links
-> to Python source code as well as a **Windows.exe and Raspberry Pi SD card** .img versions of 
->Convergence Jukebox.
+> to Python source code.
 
 
 
