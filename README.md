@@ -1,5 +1,5 @@
 # Convergence-Jukebox-2
-Update to the original Convergence Jukebox using a Kivy based GUI in place of Tkinter. Convergence Jukebox 2 is a fully functional retro jukebox application. It emulates "physical" jukeboxes and is written in Python. The software has been designed to be fully functional, playing mp3's both randomly and via a credit system. More at www.convergencejukebox.com
+Update to the original Convergence Jukebox using a Kivy based GUI in place of Tkinter and now the working version. Convergence Jukebox 2 is a fully functional retro jukebox application. It emulates "physical" jukeboxes and is written in Python. The software has been designed to be fully functional, playing mp3's both randomly and via a credit system. More at www.convergencejukebox.com
 
 **Convergence Jukebox 2** is open source Python based software that has been written in Python 2.7 to emulate a “retro” style jukebox. The type of jukebox that was popular in bars, restaurants and recreation areas during the 1950’s and 60’s. Written from scratch by **[Brad Fortner]** of Convergence Communications, Convergence Jukebox 2 plays properly formed ID3 tagged mp3 media. 
 
@@ -8,7 +8,7 @@ The Jukebox can be controlled for “personal” use by your computer keyboard b
 Features include;
 - Unlimited mp3 library size: Currently operating in our development centre is a version containing 15,800 mp3 files. This implementation runs on minimum hardware. In this case it’s an HP MINI 210 PC that contains an Atom N450 processor, 1024 MB of memory and a ‎160.0 GB hard drive. Jukebox 2.0 has yet to be tested on a Raspberry Pi.
 - Automatic Song Detection: MP3 library database is built automatically when additional properly formed ID3 tagged files are added to the media folder and the program is restarted.
-- Multiple Display Resolutions: Developers can change display resolution, skins and customize all items on the screen (such as song name positions) using Pythons Tkinter code.
+- Multiple Display Resolutions: Developers can change display resolution, skins and customize all items on the screen (such as song name positions) using Pythons Kivy code.
 - Customizable To Your Location: The Jukebox name or service at top of arch can be customized in the Python Kivy code.
 - Background Music System: Convergence Jukebox plays library loaded in Jukebox in a continuous manner randomly. Makes an excellent background music system.
     -  Different Styles Of Music: mp3’s can be tagged with genres in comment area of ID3 tag. Random play can be set to play specific genres by altering a simple text file.
@@ -26,13 +26,14 @@ Features include;
 - Users can navigate through music selecting songs by either Title or Artist.
 - Users can navigate to the alphabetical start of either Artist or Title using specific letter keys that employ multiple keypresses.
 - A log is kept of each song played randomly, each song paid to play, when the Jukebox is rebooted, when songs are added and when a new random list is generated.
-- Python code has been written for is included in Convergence Jukebox that’s not been documented in the released version that talks to the Dropbox folder to providing RSS feeds for digital signage systems. as well as It is possible to include code to create tweets to Twitter accounts making the jukebox useful as a global barker system.
+- Python code has been written for is included in Convergence Jukebox that’s not been documented in the released version that talks to the Dropbox folder to providing RSS feeds for digital signage systems. As well as It is possible to include code to create tweets to Twitter accounts making the jukebox useful as a global barker system.
 
 New In Convergence Jukebox 2.001;
 
 - Jukebox GUI re-written in Kivy.
-- Bug fix so last song on selection screen can now be selected.
+- Bug fix so last song on selection screen can now be accessed.
 - Artists are kept in proper alphabetical order including bands that start with The.
+- Bug fix so GUI wont crash when there are no titles or artists during Title Or Artist selection search.
 
 > The Convergence Jukebox website at **[www.convergencejukebox.com]** contains links
 > to Python source code.
@@ -52,27 +53,27 @@ Convergence Jukebox uses a number of open source projects to work properly:
 * **[ImageTk]** – sudo apt-get install python-imaging-tk
 * **[PyRSS2Gen]** - sudo pip installPyRSS2Gen
 * **[Unclutter]** - sudo apt-get install unclutter
+* **[Kivy]** - https://kivy.org/#download
+* **[Keyboard]** - sudo pip install keyboard
 
 ### Installation
 
-As soon as I figure out how to do a repository:
+- Clone Convergence Jukebox 2 to a directory on your Windows computer.
+- Convergence Jukebox 2 requires Python 2.7 and the libraries (noted above) installed.
+- Convergence Jukebox 2 requires a music subdirectory with a minimum of 50 properly formed mp3 files.
+    - download 80+ properly formed public domain mp3's from http://bit.ly/2qnxahz
+    - info on properly formed mp3's at http://bit.ly/2rbIw9t
+- Both convergenceplayer.py and convergencegui.py need to be running (launched in that order) for Convergence Jukebox 2 to operate.
+- Convergence Jukebox 2 as written here requires a 720p display in order for the GUI to line up correctly.
+- Toggling between Artist and Title sort is accomplished by hitting the forward slash "/" key. This differs from the original Convergence Jukebox imlementation.
+- Since Convergence Jukebox 2 is written upon the same code base as the original Convergence Jukebox, other than the change noted above one can find documentation for the rest of its features at http://bit.ly/2pSgoU7
 
-```sh
-$ i will post code here
-```
-
-```sh
-$ and here
-$ and here
-$ and here
-$ and here
-$ and here
-```
 
 ### Music
 
 Some versions of Convergence Jukebox are distributed with Creative Commons Music
 
+* 80+ properly formed public domain mp3's that work with Convergence Jukebox 2.0 can be downloaded from http://bit.ly/2qnxahz
 * Music Distributed Under The Following Licences From http://freemusicarchive.org/
 * Happy Halloween by The Vivisectors is licensed under a Attribution-NonCommercial-ShareAlike License http://creativecommons.org/licenses/by-nc-sa/4.0/
 * One by Brandon Liew is licensed under a Attribution License http://creativecommons.org/licenses/by/4.0/
@@ -109,3 +110,5 @@ GNU V3 General Public License
    [Unclutter]: <http://sourceforge.net/projects/unclutter/>
    [format mp3's]: <https://docs.google.com/document/d/1wc3l6keReNS850kQRRfQwHofUCvj3HhDXVgUWesRLf0/pub>
    [FAQ]: <https://docs.google.com/document/d/1WTYAmVawP2s8ruYispc3wRWVOO9bEDNvA2KJomWFTuw/pub>
+   [Kivy]: <https://kivy.org/#home>
+   [Keyboard]: <https://pypi.python.org/pypi/keyboard>
