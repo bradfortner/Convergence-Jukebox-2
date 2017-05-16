@@ -378,8 +378,6 @@ class MyFinalApp(App):
             self.my_selection_seventeen.text = " "
             try:
                 if upcoming_list:
-                    print "There is a list and the list is"
-                    print upcoming_list
                     if upcoming_list[0]:
                         self.my_selection_one.text = upcoming_list[0]
                     if upcoming_list[1]:
