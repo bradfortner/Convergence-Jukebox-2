@@ -7,7 +7,6 @@ from kivy.uix.label import Label
 from kivy.lang import Builder
 from kivy.core.window import Window
 from kivy.clock import Clock
-from kivy.uix.widget import Widget
 import pickle
 import os
 import os.path, time
