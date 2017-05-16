@@ -73,6 +73,7 @@ Convergence Jukebox uses a number of open source projects to work properly:
 
 Some versions of Convergence Jukebox are distributed with Creative Commons Music
 
+* 80+ properly formed public domain mp3's that work with Convergence Jukebox 2.0 can be downloaded from http://bit.ly/2qnxahz
 * Music Distributed Under The Following Licences From http://freemusicarchive.org/
 * Happy Halloween by The Vivisectors is licensed under a Attribution-NonCommercial-ShareAlike License http://creativecommons.org/licenses/by-nc-sa/4.0/
 * One by Brandon Liew is licensed under a Attribution License http://creativecommons.org/licenses/by/4.0/
