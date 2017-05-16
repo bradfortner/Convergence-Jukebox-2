@@ -58,19 +58,9 @@ Convergence Jukebox uses a number of open source projects to work properly:
 
 ### Installation
 
-As soon as I figure out how to do a repository:
+- Clone Convergence Jukebox 2.0 to a directory on your Windows computer.
+- Convergence Jukebox 2.0 requires Python 2.7 and the libraries (noted above) installed.
 
-```sh
-$ i will post code here
-```
-
-```sh
-$ and here
-$ and here
-$ and here
-$ and here
-$ and here
-```
 
 ### Music
 
