@@ -53,6 +53,8 @@ Convergence Jukebox uses a number of open source projects to work properly:
 * **[ImageTk]** – sudo apt-get install python-imaging-tk
 * **[PyRSS2Gen]** - sudo pip installPyRSS2Gen
 * **[Unclutter]** - sudo apt-get install unclutter
+* **[Kivy]** - https://kivy.org/#download
+* **[Keyboard]** - sudo pip install keyboard
 
 ### Installation
 
