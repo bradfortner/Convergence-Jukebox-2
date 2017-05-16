@@ -33,6 +33,7 @@ New In Convergence Jukebox 2.001;
 - Jukebox GUI re-written in Kivy.
 - Bug fix so last song on selection screen can now be selected.
 - Artists are kept in proper alphabetical order including bands that start with The.
+- Bug fix so GUI wont crash when there are no titles or artists during Title Or Artist selection search.
 
 > The Convergence Jukebox website at **[www.convergencejukebox.com]** contains links
 > to Python source code.
