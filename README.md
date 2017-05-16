@@ -1,5 +1,5 @@
 # Convergence-Jukebox-2
-Update to the original Convergence Jukebox using a Kivy based GUI in place of Tkinter. Convergence Jukebox 2 is a fully functional retro jukebox application. It emulates "physical" jukeboxes and is written in Python. The software has been designed to be fully functional, playing mp3's both randomly and via a credit system. More at www.convergencejukebox.com
+Update to the original Convergence Jukebox using a Kivy based GUI in place of Tkinter and now the working version. Convergence Jukebox 2 is a fully functional retro jukebox application. It emulates "physical" jukeboxes and is written in Python. The software has been designed to be fully functional, playing mp3's both randomly and via a credit system. More at www.convergencejukebox.com
 
 **Convergence Jukebox 2** is open source Python based software that has been written in Python 2.7 to emulate a “retro” style jukebox. The type of jukebox that was popular in bars, restaurants and recreation areas during the 1950’s and 60’s. Written from scratch by **[Brad Fortner]** of Convergence Communications, Convergence Jukebox 2 plays properly formed ID3 tagged mp3 media. 
 
