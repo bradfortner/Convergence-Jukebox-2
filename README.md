@@ -8,7 +8,7 @@ The Jukebox can be controlled for “personal” use by your computer keyboard b
 Features include;
 - Unlimited mp3 library size: Currently operating in our development centre is a version containing 15,800 mp3 files. This implementation runs on minimum hardware. In this case it’s an HP MINI 210 PC that contains an Atom N450 processor, 1024 MB of memory and a ‎160.0 GB hard drive. Jukebox 2.0 has yet to be tested on a Raspberry Pi.
 - Automatic Song Detection: MP3 library database is built automatically when additional properly formed ID3 tagged files are added to the media folder and the program is restarted.
-- Multiple Display Resolutions: Developers can change display resolution, skins and customize all items on the screen (such as song name positions) using Pythons Tkinter code.
+- Multiple Display Resolutions: Developers can change display resolution, skins and customize all items on the screen (such as song name positions) using Pythons Kivy code.
 - Customizable To Your Location: The Jukebox name or service at top of arch can be customized in the Python Kivy code.
 - Background Music System: Convergence Jukebox plays library loaded in Jukebox in a continuous manner randomly. Makes an excellent background music system.
     -  Different Styles Of Music: mp3’s can be tagged with genres in comment area of ID3 tag. Random play can be set to play specific genres by altering a simple text file.
@@ -26,7 +26,7 @@ Features include;
 - Users can navigate through music selecting songs by either Title or Artist.
 - Users can navigate to the alphabetical start of either Artist or Title using specific letter keys that employ multiple keypresses.
 - A log is kept of each song played randomly, each song paid to play, when the Jukebox is rebooted, when songs are added and when a new random list is generated.
-- Python code has been written for is included in Convergence Jukebox that’s not been documented in the released version that talks to the Dropbox folder to providing RSS feeds for digital signage systems. as well as It is possible to include code to create tweets to Twitter accounts making the jukebox useful as a global barker system.
+- Python code has been written for is included in Convergence Jukebox that’s not been documented in the released version that talks to the Dropbox folder to providing RSS feeds for digital signage systems. As well as It is possible to include code to create tweets to Twitter accounts making the jukebox useful as a global barker system.
 
 New In Convergence Jukebox 2.001;
 
