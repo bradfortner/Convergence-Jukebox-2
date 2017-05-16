@@ -58,11 +58,15 @@ Convergence Jukebox uses a number of open source projects to work properly:
 
 ### Installation
 
-- Clone Convergence Jukebox 2.0 to a directory on your Windows computer.
-- Convergence Jukebox 2.0 requires Python 2.7 and the libraries (noted above) installed.
-- Convergence Jukebox 2.0 requires a music subdirectory with a minimum of 50 properly formed mp3 files.
+- Clone Convergence Jukebox 2 to a directory on your Windows computer.
+- Convergence Jukebox 2 requires Python 2.7 and the libraries (noted above) installed.
+- Convergence Jukebox 2 requires a music subdirectory with a minimum of 50 properly formed mp3 files.
     - download 80+ properly formed public domain mp3's from http://bit.ly/2qnxahz
     - info on properly formed mp3's at http://bit.ly/2rbIw9t
+- Both convergenceplayer.py and convergencegui.py need to be running (launched in that order) for Convergence Jukebox 2 to operate.
+- Convergence Jukebox 2 as written here requires a 720p display in order for the GUI to line up correctly.
+- Toggling between Artist and Title sort is accomplished by hitting the forward slash "/" key. This differs from the original Convergence Jukebox imlementation.
+- Since Convergence Jukebox 2 is written upon the same code base as the original Convergence Jukebox, other than the change noted above one can find documentation for the rest of its features at http://bit.ly/2pSgoU7
 
 
 ### Music
