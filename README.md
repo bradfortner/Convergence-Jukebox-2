@@ -67,7 +67,7 @@ Convergence Jukebox uses a number of open source projects to work properly:
 - Convergence Jukebox 2 as written here requires a 720p display in order for the GUI to line up correctly.
 - Toggling between Artist and Title sort is accomplished by hitting the forward slash "/" key. This differs from the original Convergence Jukebox imlementation.
 - Since Convergence Jukebox 2 is written upon the same code base as the original Convergence Jukebox, other than the change noted above one can find documentation for the rest of its features at http://bit.ly/2pSgoU7
-
+- **Note** Press escape key to exit Convergence Jukebox 2 GUI.
 
 ### Music
 
