@@ -61,7 +61,7 @@ song_selection_number = ""
 x = 0
 file_time_old = "Wed Dec 30 22:56:15 2015"
 
-Window.fullscreen = False # does not force full screen
+Window.fullscreen = True # does not force full screen
 Window.size = (1280, 720) # sets 720p
 
 Builder.load_string('''
@@ -1820,8 +1820,6 @@ def clear_alpha_keys(event=None):
     p_key_press = 0
     w_key_press = 0
     t_key_press = 0
-
-
 
 def so_long(event=None): # Used to terminate program.
 
