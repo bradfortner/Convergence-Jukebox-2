@@ -13,12 +13,10 @@ import os.path, time
 import sys  # Used to check and switch resolutions for convergence jukebox.
 from ctypes import *  # Used by playmp3.py windows based mp3 player.
 # http://www.mailsend-online.com/blog/play-mp3-files-with-python-on-windows.html
-import signal
 from operator import itemgetter
 import datetime  # Used in RSS generation.
 import PyRSS2Gen  # Used n RSS generation.
 import getpass  # Gets user name http://stackoverflow.com/questions/4325416/how-do-i-get-the-username-in-python.
-from random import randint
 import keyboard # Used to simulated keyboard events to call screen update functions http://bit.ly/2qwRrTh
 
 computer_account_user_name = getpass.getuser()  # Used to write various log and RSS files to local directories.
