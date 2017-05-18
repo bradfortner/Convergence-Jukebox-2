@@ -111,40 +111,8 @@ Builder.load_string('''
 
 class JukeboxScreen(FloatLayout):
 
-    def my_buttons_text(self):  # my_button_text event handler code
-        global adder
-        self.ids.song_0_title.text = str(song_list[adder][0])
-        self.ids.song_0_artist.text = str(song_list[adder][1])
-        self.ids.song_1_title.text = str(song_list[adder + 1][0])
-        self.ids.song_1_artist.text = str(song_list[adder + 1][1])
-        self.ids.song_2_title.text = str(song_list[adder + 2][0])
-        self.ids.song_2_artist.text = str(song_list[adder + 2][1])
-        self.ids.song_3_title.text = str(song_list[adder + 3][0])
-        self.ids.song_3_artist.text = str(song_list[adder + 3][1])
-        self.ids.song_4_title.text = str(song_list[adder + 4][0])
-        self.ids.song_4_artist.text = str(song_list[adder + 4][1])
-        self.ids.song_5_title.text = str(song_list[adder + 5][0])
-        self.ids.song_5_artist.text = str(song_list[adder + 5][1])
-        self.ids.song_6_title.text = str(song_list[adder + 6][0])
-        self.ids.song_6_artist.text = str(song_list[adder + 6][1])
-        self.ids.song_7_title.text = str(song_list[adder + 7][0])
-        self.ids.song_7_artist.text = str(song_list[adder + 7][1])
-        self.ids.song_8_title.text = str(song_list[adder + 8][0])
-        self.ids.song_8_artist.text = str(song_list[adder + 8][1])
-        self.ids.song_9_title.text = str(song_list[adder + 9][0])
-        self.ids.song_9_artist.text = str(song_list[adder + 9][1])
-        self.ids.song_10_title.text = str(song_list[adder + 10][0])
-        self.ids.song_10_artist.text = str(song_list[adder + 10][1])
-        self.ids.song_11_title.text = str(song_list[adder + 11][0])
-        self.ids.song_11_artist.text = str(song_list[adder + 11][1])
-        self.ids.song_12_title.text = str(song_list[adder + 12][0])
-        self.ids.song_12_artist.text = str(song_list[adder + 12][1])
-        self.ids.song_13_title.text = str(song_list[adder + 13][0])
-        self.ids.song_13_artist.text = str(song_list[adder + 13][1])
-        self.ids.song_14_title.text = str(song_list[adder + 14][0])
-        self.ids.song_14_artist.text = str(song_list[adder + 14][1])
-        self.ids.song_15_title.text = str(song_list[adder + 15][0])
-        self.ids.song_15_artist.text = str(song_list[adder + 15][1])
+    pass
+
 
 class MyFinalApp(App):
 
